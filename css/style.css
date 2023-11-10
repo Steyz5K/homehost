@@ -64,6 +64,7 @@ p {
     background-color: #14f156;
     padding: 15px 20px;
     border-radius: 5px;
+    margin-right: 25px;
 }
 
 .main-banner {
@@ -144,4 +145,73 @@ p {
 }
 .plans-container{
     display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.plans-container .plan{
+    width: 275px;
+    margin: 0 20px;
+}
+.plans-container .plan ul{
+    list-style: none;
+    padding: 0;
+}
+.plan li{
+    height: 50px;
+    line-height: 50px;
+    background-color: #e8e9ea;
+    color: #333;
+}
+.plan .price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2cc76a;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    position: relative;
+    margin: 0 auto;
+    top: 40px;
+}
+.plan .plan-name{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 50px ;
+    padding-bottom: 20px;
+    color: #fff;
+    background-color: #202b34;
+    font-weight: bold;
+}
+.plan .plan-btn{
+    background-color: #2cc76a;
+    color: #fff;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+.plan .recommended{
+    background-color: red;
+}
+.searchdomain-container{
+    background-color: #34454e;
+    text-align: center;
+    padding: 5em 0;
+}
+.searchdomain-container h2{
+    color: #fff;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.searchdomain-container p{
+    color: #D5D5D5;
+    font-size: 24px;
+    margin-top: 25px;
 }
